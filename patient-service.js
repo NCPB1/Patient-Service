@@ -57,6 +57,6 @@ const express = require('express');
     });
     
     app.listen(port, '0.0.0.0', () => {
-      console.log(`Patient service listening at http://0.0.0.0:5000`);
+      console.log(`Patient service listening at http://0.0.0.0:${port}`);
     });
     
